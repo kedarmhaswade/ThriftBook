@@ -14,6 +14,7 @@ public class FactoryClient {
         String line;
         do {
             System.out.println("Message from server: " + client.motd());
+            System.out.println("Names from server: " + client.getNames());
             System.out.println("Enter to continue, 'q' to quit: ");
             line = System.console().readLine();
         } while (0 != line.compareToIgnoreCase("q"));

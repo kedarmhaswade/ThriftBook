@@ -1,4 +1,5 @@
 service Message {
-   string motd()
+   string motd();
+   set<string> getNames();
 }
 
